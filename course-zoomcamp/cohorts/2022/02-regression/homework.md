@@ -1,9 +1,17 @@
 ## Homework
 
+> Note: sometimes your answer doesn't match one of the options exactly. That's fine. 
+Select the option that's closest to your solution.
+
 ### Dataset
 
-In this homework, we will use the California Housing Prices. You can take it from
-[Kaggle](https://www.kaggle.com/datasets/camnugent/california-housing-prices).
+In this homework, we will use the California Housing Prices from [Kaggle](https://www.kaggle.com/datasets/camnugent/california-housing-prices).
+
+Here's a wget-able [link](https://raw.githubusercontent.com/alexeygrigorev/datasets/master/housing.csv):
+
+```bash
+wget https://raw.githubusercontent.com/alexeygrigorev/datasets/master/housing.csv
+```
 
 The goal of this homework is to create a regression model for predicting housing prices (column `'median_house_value'`).
 
@@ -64,7 +72,6 @@ What's the median (50% percentile) for variable 'population'?
 Options:
 - With 0
 - With mean
-- With median
 - Both are equally good
 
 ### Question 4
